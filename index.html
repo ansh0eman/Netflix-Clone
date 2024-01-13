@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix Clone</title>
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
     <div class="main">
       <nav>
         <span><img src="Assets/Images/logo.svg" alt="Logo" height="30" /></span>
         <div>
-          <button type="button">English</button>
-          <button>Sign In</button>
+          <button class="btn" type="button">English</button>
+          <button class="btn btn-red-sm">Sign In</button>
         </div>
       </nav>
       <div class="box"></div>
@@ -20,7 +21,13 @@
         <span> Unlimited movies, TV shows and more</span>
         <span>Watch anywhere. Cancel anytime.</span>
         <span>Ready to watch? Enter your email to create or restart your membership.</span>
+        <div class="tb-buttons">
+            <input type="email" placeholder="Email Address">
+            <button class="btn btn-red">Get Started</button>
+        </div>
       </div>
+
+      <div class="separation"></div>
     </div>
   </body>
 </html>
